@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{margin:0;padding:0;text-decoration:none;border:none;font-family:Tahoma, Arial, Verdana, Futura, Helvetica, Geneva;outline:none;color:#FFF;list-style:none;}
+.all{width:800px;margin:auto;background:url(Sorting_Hat.png) right 20% no-repeat;background-size:687px 487px;border:double 4px #FFF;padding:0 50px;}
+.aviso{color:red;}
+.center{text-align:center;}
+body{
+	padding:20px;
+	background-color:#000;
+	}
+h1,h2.modal-title{color:red;font-weight:bold;}
+h2{color:#00FFFF;}
+h3{text-shadow: #ccc 2px 3px 2px}
+h4{color:#000;}
+ol.questoes li{list-style-type:decimal;font-size:20px;}
+ol.opt li{list-style-type:lower-alpha;margin-left:65px;}
+input[type="radio"],label{cursor:pointer;}
+label{
+	display:inline-block;
+	border:solid 1px #ccc;
+	width:200px;
+	text-align:center;
+	margin-left:10px;
+	font-size:14px;
+	border:dotted 1px #00FFFF;
+	}
+button{
+	width:50%;
+	height:40px;
+	margin:20px 0;
+	}
+footer{
+	text-align:center;color:#00FFFF;
+	margin:20px 0 40px 0;
+	padding:10px 0;
+	border-top:dashed 1px #00FFFF;
+	border-bottom:dashed 1px #00FFFF;
+	}
+	/* dotted solid double dashed */
